@@ -1,0 +1,21 @@
+.details__header {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.details__header > h1 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.details__container {
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+
+p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}

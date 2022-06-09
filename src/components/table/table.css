@@ -4,8 +4,44 @@ table {
     width: 100%;
   }
   
-  td, th {
+  td, th{
     border: 1px solid #dddddd;
     text-align: left;
+    padding: 0.8rem;
+    width: max-content;
+  }
+
+  th {
     padding: 1rem;
+  }
+
+  .fname {
+    cursor: pointer;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .name {
+    color: black;
+  }
+
+  .web {
+    color: rgb(0, 136, 255);
+  }
+
+  .arrow__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arrow__container:hover {
+    cursor: pointer;
+  }
+
+  .t__head {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
   }
