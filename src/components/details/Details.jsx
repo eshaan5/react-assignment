@@ -23,8 +23,6 @@ const Details = ({ setSearch, users, setCurrentPage, setSortType }) => {
     return user.id == id;
   });
 
-  // setUser(userArray[0]);
-  console.log(userArray);
   return (
     <div>
       <div className="details__header">

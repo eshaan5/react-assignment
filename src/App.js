@@ -78,11 +78,9 @@ function App() {
 
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename='/react-assignment'>
         <Routes>
-          <Route
-            exact
-            path="/users"
+          <Route path="/users"
             element={
               <>
                 <Header onSearch={onSearch} />
